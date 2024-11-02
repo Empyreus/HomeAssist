@@ -10,13 +10,6 @@ blueprint:
         entity:
           filter:
             - domain: input_datetime
-    workday_sensor:
-      name: Workday Sensor
-      description: Binary Sensor for determining whether it should run. Typically from Workday Integration
-      selector:
-        entity:
-          filter:
-            - domain: binary_sensor
     alarm_script:
       name: Script to trigger
       description: Light Alarm Script
